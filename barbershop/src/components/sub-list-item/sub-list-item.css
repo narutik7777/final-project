@@ -1,0 +1,29 @@
+.sub-list-item {
+    display:flex;
+    margin: 15x 0;
+}
+.sub-list-item .sub-cover {
+    flex-shrink: 0;
+    width: 140px;
+    margin-right: 30px;
+
+}
+
+.sub-list-item .sub-cover img{
+    max-width: 100%;
+}
+
+.sub-list-item .sub-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+ .sub-title{
+    font-size:1.3rem ;
+}
+
+ .sub-price{
+     font-size:1.3rem
+ }
